@@ -55,7 +55,7 @@ Use the interface to register, search for accommodations, and manage your bookin
 ### Contributing
 We welcome contributions to the MustAccommodation project. If you would like to contribute, please follow these steps:
 
-Fork the repository
+Fork the repository  
 Create a new branch (git checkout -b feature/your-feature-name)  
 Make your changes  
 Commit your changes (git commit -m 'Add some feature')  
