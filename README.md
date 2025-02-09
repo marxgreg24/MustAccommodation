@@ -2,7 +2,8 @@
 A website for accommodation at Mbarara University
 
 ## Table of Contents
-Introduction
+Introduction  
+
 Features
 Installation
 Usage
