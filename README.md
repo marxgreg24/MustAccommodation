@@ -3,12 +3,11 @@ A website for accommodation at Mbarara University
 
 ## Table of Contents
 Introduction  
-
-Features
-Installation
-Usage
-Contributing
-License
+Features  
+Installation  
+Usage  
+Contributing  
+License  
 
 ### Introduction
 MustAccommodation is a web application designed to facilitate accommodation bookings and management for students and staff at Mbarara University. 
