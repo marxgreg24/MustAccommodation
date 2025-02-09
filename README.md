@@ -23,7 +23,7 @@ Admin panel for managing accommodation listings
 ### Installation
 To set up the project locally, follow these steps:
 
-####Clone the repository:
+#### Clone the repository:
 
 sh
 git clone https://github.com/marxgreg24/MustAccommodation.git    
