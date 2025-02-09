@@ -49,14 +49,15 @@ npm start
  Public code references from 1 repository
  
 ### Usage
-Once the application is running, you can access it via your web browser at http://localhost:3000. Use the interface to register, search for accommodations, and manage your bookings.
+Once the application is running, you can access it via your web browser at http://localhost:3000.  
+Use the interface to register, search for accommodations, and manage your bookings.
 
 ### Contributing
 We welcome contributions to the MustAccommodation project. If you would like to contribute, please follow these steps:
 
 Fork the repository
-Create a new branch (git checkout -b feature/your-feature-name)
-Make your changes
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/your-feature-name)
-Open a pull request
+Create a new branch (git checkout -b feature/your-feature-name)  
+Make your changes  
+Commit your changes (git commit -m 'Add some feature')  
+Push to the branch (git push origin feature/your-feature-name)  
+Open a pull request  
