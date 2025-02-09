@@ -25,27 +25,27 @@ To set up the project locally, follow these steps:
 
 #### Clone the repository:
 
-sh
-git clone https://github.com/marxgreg24/MustAccommodation.git    
+sh  
+git clone https://github.com/marxgreg24/MustAccommodation.git     
 Public code references from 1 repository
  
 #### Navigate to the project directory:
 
-sh
-cd MustAccommodation  
+sh  
+cd MustAccommodation    
  Public code references from 1 repository
  
 #### Install dependencies:
 
-sh
-npm install
- Public code references from 1 repository
+sh  
+npm install  
+ Public code references from 1 repository  
 Set up environment variables: Create a .env file in the root directory and add the necessary environment variables.
 
 #### Run the application:
 
-sh
-npm start
+sh  
+npm start  
  Public code references from 1 repository
  
 ### Usage
