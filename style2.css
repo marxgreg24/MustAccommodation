@@ -1,0 +1,274 @@
+/* Global and Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header Style */
+header {
+    background-color: #16213D;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Navigation Link Styles */
+.link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #16213D;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+.dropdown a:hover {
+    background-color: #0d9e9e;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown a {
+    color: aliceblue;
+    font-size: 22px;
+    padding: 10px;
+}
+
+/* Button Styles */
+.button1, .button2 {
+    padding: 10px 20px;
+    background-color: #0e14b5;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 0 5px #0e14b5;
+    transition: 0.5s;
+}
+
+.button1:hover, .button2:hover {
+    box-shadow: 0 0 5px #0e14b5, 0 0 25px #0e14b5, 0 0 50px #0e14b5, 0 0 100px #0e14b5;
+}
+
+/* Floor Heading Styles */
+.floor {
+    font-size: 22px;
+    text-align: center;
+    color: #16213D;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Room Container Styles */
+.room-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Room Card Styles */
+.room-card {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.room-card:hover {
+    transform: scale(1.05);
+    border: 3px solid #0e14b5;
+    backdrop-filter: blur(10px);
+}
+
+/* Room Card Image */
+.room-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+/* Overlay with Room Info */
+.room-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(22, 33, 61, 0.9);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: center;
+}
+
+.room-card:hover .room-info {
+    opacity: 1;
+}
+
+.room-info h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.room-info label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.room-info input {
+    background-color: #ffffff;
+    color: #16213D;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Admin Button */
+.admin-edit {
+    display: none;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #0e14b5;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.room-card.admin .admin-edit {
+    display: inline-block;
+}
+
+/* Footer Style */
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #16213D;
+    color: #fcfbfb;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .link {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropdown a {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .room-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .room-card {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .button1, .button2 {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    .link {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .button1, .button2 {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .room-card {
+        width: 100%;
+    }
+
+    .room-info h3 {
+        font-size: 18px;
+    }
+
+    .room-info label {
+        font-size: 14px;
+    }
+}
