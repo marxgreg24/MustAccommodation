@@ -26,13 +26,13 @@ To set up the project locally, follow these steps:
 ####Clone the repository:
 
 sh
-git clone https://github.com/marxgreg24/MustAccommodation.git
- Public code references from 1 repository
+git clone https://github.com/marxgreg24/MustAccommodation.git    
+Public code references from 1 repository
  
 #### Navigate to the project directory:
 
 sh
-cd MustAccommodation
+cd MustAccommodation  
  Public code references from 1 repository
  
 #### Install dependencies:
